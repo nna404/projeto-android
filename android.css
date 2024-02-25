@@ -69,10 +69,10 @@ nav > a:hover {
 main {
     margin: auto;
     background-color: white;
-    min-width: 400px;
+    min-width: 315px;
     max-width: 800px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 main img.pequena {
@@ -85,14 +85,14 @@ article h1 {
     font-family: var(--fonte2);
     color: var(--cor4);
     font-weight: lighter;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 article h2 {
     font-family: var(--fonte2);
     color: var(--cor4);
     font-weight: lighter;
-    line-height: 2em;
+    line-height: 1.5em;
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
@@ -108,7 +108,7 @@ article a:hover {
     transition-duration: 0.5s;
 }
 
-p {
+article p {
     line-height: 1.5em;
     text-align: justify;
     text-indent: 10px;
